@@ -69,17 +69,10 @@ const CFG = {
 
 > With the keys left empty, the app runs in **local-only mode**. Data stays in that browser's `localStorage` and nothing syncs.
 
-### 3. Deploy
-
-| Host | Steps |
-|---|---|
-| **Netlify Drop** | Go to [app.netlify.com/drop](https://app.netlify.com/drop) and drag a folder containing `index.html` onto the page. |
-| **GitHub Pages** | Upload `index.html` to a repo, then **Settings → Pages → Deploy from branch → main / root**. |
-| **Vercel** | Import the repo and deploy with default settings. |
 
 Phones need an HTTPS link, so opening the file from a laptop won't work for the team.
 
-### 4. Test before the event
+### 3. Test before the event
 
 1. Open the link on two phones and log in with different names.
 2. Tick a task on one phone and watch it appear on the other.
@@ -135,12 +128,6 @@ qubrix-control-desk/
 | "Already exists" error on the SQL | Harmless. The objects were already created. |
 | App stopped working after a quiet week | Free Supabase projects pause after about 7 days of inactivity. Restore the project from the dashboard. |
 
-## Event-day tips
-
-- Open the app a few days before 17 Nov so the Supabase project isn't paused.
-- Export a CSV before the event, after the final review and after closing.
-- Use the audit log to see who last touched a disputed item.
-- Keep the printed checklist at the control desk as a fallback.
 
 ## Credits
 
